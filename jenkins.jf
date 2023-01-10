@@ -1,0 +1,10 @@
+#cp /var/lib/jenkins/TF/template.tf .
+git clone https://github.com/rajhans13/kpmg_deployment.git
+cd kpmg_deployment
+if [ "$ACTION" = "CREATE" ]
+then
+terraform init
+terraform plan
+terraform apply -auto-approve
+else
+terraform destroy -auto-approve
