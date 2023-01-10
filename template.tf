@@ -138,8 +138,8 @@ resource "aws_instance" "instance1" {
   sudo mkdir flask
   cd flask
   git init
-  git clone https://github.com/Ucheudeze/2022-Challenge-.git
-  cd 2022-Challenge-/
+  git clone https://github.com/rajhans13/kpmg_deployment.git
+  cd kpmg_deployment/
   export TC_DYNAMO_TABLE=ddb
   sudo add-apt-repository universe
   sudo apt update
@@ -192,8 +192,8 @@ resource "aws_instance" "instance2" {
   sudo mkdir flask
   cd flask
   git init
-  git clone https://github.com/Ucheudeze/2022-Challenge-.git
-  cd 2022-Challenge-/
+  git clone https://github.com/rajhans13/kpmg_deployment.git
+  cd kpmg_deployment/
   export TC_DYNAMO_TABLE=ddb
   sudo add-apt-repository universe
   sudo apt update
